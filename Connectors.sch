@@ -38,12 +38,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J3
 U 1 1 5CE3EBBD
-P 5900 4000
-F 0 "J3" H 5950 4317 50  0000 C CNN
-F 1 "ICSP" H 5950 4226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5900 4000 50  0001 C CNN
-F 3 "~" H 5900 4000 50  0001 C CNN
-	1    5900 4000
+P 6150 4000
+F 0 "J3" H 6200 4317 50  0000 C CNN
+F 1 "ICSP" H 6200 4226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6150 4000 50  0001 C CNN
+F 3 "~" H 6150 4000 50  0001 C CNN
+	1    6150 4000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -57,4 +57,16 @@ F 3 "~" H 4850 2600 50  0001 C CNN
 	1    4850 2600
 	1    0    0    -1  
 $EndComp
+Text HLabel 5950 3900 0    50   Output ~ 0
+MISO
+Text HLabel 5950 4000 0    50   BiDi ~ 0
+SCK
+Text HLabel 5950 4100 0    50   Output ~ 0
+RESET
+Text HLabel 6450 3900 2    50   Input ~ 0
+Vcc
+Text HLabel 6450 4000 2    50   Input ~ 0
+MOSI
+Text HLabel 6450 4100 2    50   Input ~ 0
+GND
 $EndSCHEMATC

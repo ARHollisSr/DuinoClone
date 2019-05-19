@@ -101,12 +101,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" H 2400 4350 50 
 	1    2400 4350
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 3150 6175 1100 1200
-U 5CE3C2E7
-F0 "Connectors" 50
-F1 "Connectors.sch" 50
-$EndSheet
 $Comp
 L dk_Embedded-Microcontrollers:ATMEGA328P-AU U4
 U 1 1 5CE4135D
@@ -182,4 +176,97 @@ F 3 "" H 8525 3800 50  0001 C CNN
 	1    8525 3800
 	1    0    0    -1  
 $EndComp
+Text HLabel 5025 6125 2    50   Input ~ 0
+MISO
+Text Label 4750 6125 2    50   ~ 0
+MISO
+Text Label 5825 3375 2    50   ~ 0
+MISO
+$Sheet
+S 5025 5950 1100 1200
+U 5CE3C2E7
+F0 "Connectors" 50
+F1 "Connectors.sch" 50
+F2 "SCK" B L 5025 6425 50 
+F3 "RESET" O L 5025 6650 50 
+F4 "Vcc" I L 5025 6900 50 
+F5 "MOSI" I L 5025 6275 50 
+F6 "GND" I L 5025 7050 50 
+$EndSheet
+Text Label 4750 6425 2    50   ~ 0
+SCK
+Text Label 4750 6650 2    50   ~ 0
+RESET
+Text Label 4750 6900 2    50   ~ 0
+Vcc
+Text Label 4750 6275 2    50   ~ 0
+MOSI
+Text Label 4750 7050 2    50   ~ 0
+GND
+Wire Wire Line
+	4750 6125 5025 6125
+Wire Wire Line
+	4750 6275 5025 6275
+Wire Wire Line
+	4750 6425 5025 6425
+Wire Wire Line
+	4750 6650 5025 6650
+Wire Wire Line
+	4750 6900 5025 6900
+Wire Wire Line
+	4750 7050 4850 7050
+Text Label 5825 3275 2    50   ~ 0
+MOSI
+Text Label 5825 3475 2    50   ~ 0
+SCK
+Text Label 5825 4175 2    50   ~ 0
+RESET
+Text Label 6425 1725 2    50   ~ 0
+Vcc
+Wire Wire Line
+	6325 1975 6325 1850
+Wire Wire Line
+	6325 1850 6425 1850
+Wire Wire Line
+	6525 1850 6525 1975
+Wire Wire Line
+	6425 1975 6425 1850
+Connection ~ 6425 1850
+Wire Wire Line
+	6425 1850 6525 1850
+Wire Wire Line
+	6425 1725 6425 1825
+Text Label 6125 5350 2    50   ~ 0
+GND
+Wire Wire Line
+	6325 5075 6325 5250
+Wire Wire Line
+	6325 5250 6425 5250
+Wire Wire Line
+	6525 5250 6525 5075
+Wire Wire Line
+	6425 5075 6425 5250
+Connection ~ 6425 5250
+Wire Wire Line
+	6425 5250 6525 5250
+Wire Wire Line
+	6150 5350 6425 5350
+Wire Wire Line
+	6425 5350 6425 5275
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5CE88593
+P 4850 7375
+F 0 "#PWR?" H 4850 7175 50  0001 C CNN
+F 1 "GNDPWR" H 4854 7221 50  0000 C CNN
+F 2 "" H 4850 7325 50  0001 C CNN
+F 3 "" H 4850 7325 50  0001 C CNN
+	1    4850 7375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 7375 4850 7050
+Connection ~ 4850 7050
+Wire Wire Line
+	4850 7050 5025 7050
 $EndSCHEMATC
