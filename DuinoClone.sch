@@ -107,4 +107,24 @@ U 5CE3C2E7
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
 $EndSheet
+$Comp
+L dk_Embedded-Microcontrollers:ATMEGA328P-AU U?
+U 1 1 5CE4135D
+P 3975 4000
+F 0 "U?" H 4303 4103 60  0000 L CNN
+F 1 "ATMEGA328P-AU" H 4303 3997 60  0000 L CNN
+F 2 "digikey-footprints:TQFP-32_7x7mm" H 4175 4200 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589968" H 4175 4300 60  0001 L CNN
+F 4 "ATMEGA328P-AU-ND" H 4175 4400 60  0001 L CNN "Digi-Key_PN"
+F 5 "ATMEGA328P-AU" H 4175 4500 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 4175 4600 60  0001 L CNN "Category"
+F 7 "Embedded - Microcontrollers" H 4175 4700 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en589968" H 4175 4800 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/ATMEGA328P-AU/ATMEGA328P-AU-ND/1832260" H 4175 4900 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC MCU 8BIT 32KB FLASH 32TQFP" H 4175 5000 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 4175 5100 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4175 5200 60  0001 L CNN "Status"
+	1    3975 4000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
