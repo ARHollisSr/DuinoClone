@@ -9,4 +9,4 @@ Two Resistors
 I2C Serial EEPROM, 1024kb, DIP-8/SOIC-8/TSSOP-8/DFN-8
 IC MCU 8BIT 32KB FLASH 32TQFP
 Clock/Timer IC
-
+TWO Two pin crystal oscillators
