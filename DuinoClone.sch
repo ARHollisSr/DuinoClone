@@ -176,45 +176,52 @@ F 3 "" H 8525 3800 50  0001 C CNN
 	1    8525 3800
 	1    0    0    -1  
 $EndComp
-Text HLabel 5025 6125 2    50   Input ~ 0
-MISO
-Text Label 4750 6125 2    50   ~ 0
+Text Label 4150 6000 2    50   ~ 0
 MISO
 Text Label 5825 3375 2    50   ~ 0
 MISO
 $Sheet
-S 5025 5950 1100 1200
+S 4425 5825 1100 1200
 U 5CE3C2E7
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
-F2 "SCK" B L 5025 6425 50 
-F3 "RESET" O L 5025 6650 50 
-F4 "Vcc" I L 5025 6900 50 
-F5 "MOSI" I L 5025 6275 50 
-F6 "GND" I L 5025 7050 50 
+F2 "SCK" B L 4425 6300 50 
+F3 "RESET" O L 4425 6475 50 
+F4 "Vcc" I L 4425 6825 50 
+F5 "MOSI" I L 4425 6150 50 
+F6 "GND" I L 4425 6925 50 
+F7 "RX" I L 4425 6625 50 
+F8 "TX" O L 4425 6725 50 
+F9 "SDA" B R 5525 5925 50 
+F10 "D2" B R 5525 6200 50 
+F11 "D3" B R 5525 6300 50 
+F12 "D4" B R 5525 6400 50 
+F13 "D5" B R 5525 6500 50 
+F14 "D6" B R 5525 6600 50 
+F15 "D7" B R 5525 6700 50 
+F16 "D8" B R 5525 6800 50 
+F17 "MISO" O L 4425 6000 50 
 $EndSheet
-Text Label 4750 6425 2    50   ~ 0
+Text Label 4150 6300 2    50   ~ 0
 SCK
-Text Label 4750 6650 2    50   ~ 0
+Text Label 4150 6475 2    50   ~ 0
 RESET
-Text Label 4750 6900 2    50   ~ 0
+Text Label 4150 6825 2    50   ~ 0
 Vcc
-Text Label 4750 6275 2    50   ~ 0
+Text Label 4150 6150 2    50   ~ 0
 MOSI
-Text Label 4750 7050 2    50   ~ 0
+Text Label 4150 6925 2    50   ~ 0
 GND
 Wire Wire Line
-	4750 6125 5025 6125
+	4150 6150 4425 6150
 Wire Wire Line
-	4750 6275 5025 6275
+	4150 6300 4425 6300
 Wire Wire Line
-	4750 6425 5025 6425
+	4150 6475 4425 6475
 Wire Wire Line
-	4750 6650 5025 6650
+	4150 6825 4425 6825
 Wire Wire Line
-	4750 6900 5025 6900
-Wire Wire Line
-	4750 7050 4850 7050
+	4150 6925 4250 6925
 Text Label 5825 3275 2    50   ~ 0
 MOSI
 Text Label 5825 3475 2    50   ~ 0
@@ -256,17 +263,79 @@ Wire Wire Line
 $Comp
 L power:GNDPWR #PWR?
 U 1 1 5CE88593
-P 4850 7375
-F 0 "#PWR?" H 4850 7175 50  0001 C CNN
-F 1 "GNDPWR" H 4854 7221 50  0000 C CNN
-F 2 "" H 4850 7325 50  0001 C CNN
-F 3 "" H 4850 7325 50  0001 C CNN
-	1    4850 7375
+P 4250 7250
+F 0 "#PWR?" H 4250 7050 50  0001 C CNN
+F 1 "GNDPWR" H 4254 7096 50  0000 C CNN
+F 2 "" H 4250 7200 50  0001 C CNN
+F 3 "" H 4250 7200 50  0001 C CNN
+	1    4250 7250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4850 7375 4850 7050
-Connection ~ 4850 7050
+	4250 7250 4250 6925
+Connection ~ 4250 6925
 Wire Wire Line
-	4850 7050 5025 7050
+	4250 6925 4425 6925
+Wire Wire Line
+	4425 6000 4150 6000
+Text Label 5775 5925 0    50   ~ 0
+SDA
+Text Label 5775 6200 0    50   ~ 0
+D2
+Text Label 5775 6300 0    50   ~ 0
+D3
+Text Label 5775 6400 0    50   ~ 0
+D4
+Text Label 5775 6500 0    50   ~ 0
+D5
+Text Label 5775 6600 0    50   ~ 0
+D6
+Text Label 5775 6700 0    50   ~ 0
+D7
+Text Label 5775 6800 0    50   ~ 0
+D8
+Text Label 4150 6625 2    50   ~ 0
+RX
+Text Label 4150 6725 2    50   ~ 0
+TX
+Wire Wire Line
+	5775 5925 5525 5925
+Wire Wire Line
+	5525 6200 5775 6200
+Wire Wire Line
+	5525 6300 5775 6300
+Wire Wire Line
+	5525 6400 5775 6400
+Wire Wire Line
+	5525 6500 5775 6500
+Wire Wire Line
+	5525 6600 5775 6600
+Wire Wire Line
+	5525 6700 5775 6700
+Wire Wire Line
+	5525 6800 5775 6800
+Wire Wire Line
+	4425 6625 4150 6625
+Wire Wire Line
+	4425 6725 4150 6725
+Text Label 5825 2275 2    50   ~ 0
+D3
+Text Label 5825 2375 2    50   ~ 0
+D4
+Text Label 5825 2675 2    50   ~ 0
+D5
+Text Label 5825 2775 2    50   ~ 0
+D6
+Text Label 5825 2875 2    50   ~ 0
+D7
+Text Label 5825 2975 2    50   ~ 0
+D8
+Text Label 5825 3975 2    50   ~ 0
+SDA
+Text Label 5825 4275 2    50   ~ 0
+RX
+Text Label 5825 4375 2    50   ~ 0
+TX
+Text Label 5825 4475 2    50   ~ 0
+D2
 $EndSCHEMATC

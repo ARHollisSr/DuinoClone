@@ -69,4 +69,38 @@ Text HLabel 6450 4000 2    50   Input ~ 0
 MOSI
 Text HLabel 6450 4100 2    50   Input ~ 0
 GND
+Text HLabel 4650 2500 0    50   Input ~ 0
+GND
+Text HLabel 4650 2600 0    50   Input ~ 0
+Vcc
+Text HLabel 4650 2700 0    50   Input ~ 0
+RX
+Text HLabel 4650 2800 0    50   Output ~ 0
+TX
+Text HLabel 5725 2450 0    50   Input ~ 0
+GND
+Text HLabel 5725 2550 0    50   Input ~ 0
+Vcc
+Text HLabel 5725 2650 0    50   BiDi ~ 0
+SDA
+Text HLabel 5725 2750 0    50   BiDi ~ 0
+SCK
+Text HLabel 4625 3350 0    50   BiDi ~ 0
+D2
+Text HLabel 4625 3450 0    50   BiDi ~ 0
+D3
+Text HLabel 4625 3550 0    50   BiDi ~ 0
+D4
+Text HLabel 4625 3650 0    50   BiDi ~ 0
+D5
+Text HLabel 4625 3750 0    50   BiDi ~ 0
+D6
+Text HLabel 4625 3850 0    50   BiDi ~ 0
+D7
+Text HLabel 4625 3950 0    50   BiDi ~ 0
+D8
+Text HLabel 4625 4050 0    50   Input ~ 0
+GND
+Text HLabel 4625 4150 0    50   Input ~ 0
+Vcc
 $EndSCHEMATC
