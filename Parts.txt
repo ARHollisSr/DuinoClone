@@ -1,0 +1,12 @@
+Battery (multiple cells)
+Polarised capacitor
+Capacitor
+Generic Connector, single row, 01x09
+Generic Connector, single row, 01x04
+Generic Connector, double row, 02x03
+Generic Connector, single row, 01x04
+Two Resistors
+I2C Serial EEPROM, 1024kb, DIP-8/SOIC-8/TSSOP-8/DFN-8
+IC MCU 8BIT 32KB FLASH 32TQFP
+Clock/Timer IC
+
