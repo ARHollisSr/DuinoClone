@@ -103,4 +103,12 @@ Text HLabel 4625 4050 0    50   Input ~ 0
 GND
 Text HLabel 4625 4150 0    50   Input ~ 0
 Vcc
+Text Notes 5300 2375 2    50   ~ 0
+N6 - Serial Connector\n
+Text Notes 6300 2350 2    50   ~ 0
+N5 - I2C Connector\n
+Text Notes 5300 3250 2    50   ~ 0
+N7 - GPIO Connector
+Text Notes 6500 3575 2    50   ~ 0
+N8 - SPI Connector
 $EndSCHEMATC
