@@ -127,4 +127,15 @@ F 12 "Active" H 4175 5200 60  0001 L CNN "Status"
 	1    3975 4000
 	1    0    0    -1  
 $EndComp
+$Comp
+L DuinoClone:DS1337_3HCv1 U?
+U 1 1 5CE464AF
+P 5350 5475
+F 0 "U?" H 5350 6206 50  0000 C CNN
+F 1 "DS1337_3HCv1" H 5350 6115 50  0000 C CNN
+F 2 "" H 5700 6025 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/74348.pdf" H 5700 6025 50  0001 C CNN
+	1    5350 5475
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
