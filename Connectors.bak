@@ -14,47 +14,47 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x09 J?
+L Connector_Generic:Conn_01x09 J1
 U 1 1 5CE3D253
-P 5175 2850
-F 0 "J?" H 5255 2892 50  0000 L CNN
-F 1 "Conn_01x09" H 5255 2801 50  0000 L CNN
-F 2 "" H 5175 2850 50  0001 C CNN
-F 3 "~" H 5175 2850 50  0001 C CNN
-	1    5175 2850
+P 4825 3750
+F 0 "J1" H 4905 3792 50  0000 L CNN
+F 1 "Conn_01x09" H 4905 3701 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 4825 3750 50  0001 C CNN
+F 3 "~" H 4825 3750 50  0001 C CNN
+	1    4825 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J4
 U 1 1 5CE3DCFD
 P 5925 2550
-F 0 "J?" H 6005 2542 50  0000 L CNN
+F 0 "J4" H 6005 2542 50  0000 L CNN
 F 1 "Conn_01x04" H 6005 2451 50  0000 L CNN
-F 2 "" H 5925 2550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5925 2550 50  0001 C CNN
 F 3 "~" H 5925 2550 50  0001 C CNN
 	1    5925 2550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
+L Connector_Generic:Conn_02x03_Odd_Even J3
 U 1 1 5CE3EBBD
-P 5150 3800
-F 0 "J?" H 5200 4117 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 5200 4026 50  0000 C CNN
-F 2 "" H 5150 3800 50  0001 C CNN
-F 3 "~" H 5150 3800 50  0001 C CNN
-	1    5150 3800
+P 5900 4000
+F 0 "J3" H 5950 4317 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 5950 4226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5900 4000 50  0001 C CNN
+F 3 "~" H 5900 4000 50  0001 C CNN
+	1    5900 4000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J?
+L Connector_Generic:Conn_01x04 J2
 U 1 1 5CE40335
-P 5925 3400
-F 0 "J?" H 6005 3392 50  0000 L CNN
-F 1 "Conn_01x04" H 6005 3301 50  0000 L CNN
-F 2 "" H 5925 3400 50  0001 C CNN
-F 3 "~" H 5925 3400 50  0001 C CNN
-	1    5925 3400
+P 4850 2600
+F 0 "J2" H 4930 2592 50  0000 L CNN
+F 1 "Conn_01x04" H 4930 2501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4850 2600 50  0001 C CNN
+F 3 "~" H 4850 2600 50  0001 C CNN
+	1    4850 2600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
