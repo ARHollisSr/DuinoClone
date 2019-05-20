@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 0)
+    (drawings 12)
     (tracks 0)
     (zones 0)
     (modules 17)
@@ -183,7 +183,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CE308A7)
-    (at 82.423 90.551)
+    (at 82.804 91.44)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /5CE2F41C)
@@ -423,7 +423,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CE30922)
-    (at 94.869 85.598 90)
+    (at 93.345 85.598 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /5CE3C2E7/5CE40335)
@@ -467,7 +467,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CE3093E)
-    (at 82.423 98.552)
+    (at 82.804 98.044)
     (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x03 2.54mm double row")
     (path /5CE3C2E7/5CE3EBBD)
@@ -517,7 +517,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CE30956)
-    (at 108.839 85.598 90)
+    (at 107.315 85.598 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /5CE3C2E7/5CE3DCFD)
@@ -597,7 +597,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5CE30978)
-    (at 88.773 86.868 180)
+    (at 87.249 86.868 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5CE34AF5)
@@ -975,5 +975,18 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_circle (center 119.38 85.598) (end 118.11 85.598) (layer Edge.Cuts) (width 0.05) (tstamp 5CE327F1))
+  (gr_circle (center 119.38 108.712) (end 118.11 108.712) (layer Edge.Cuts) (width 0.05) (tstamp 5CE327EF))
+  (gr_circle (center 82.55 108.712) (end 81.28 108.712) (layer Edge.Cuts) (width 0.05) (tstamp 5CE327E8))
+  (gr_circle (center 82.55 85.598) (end 81.28 85.598) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 121.666 110.236) (end 121.666 84.074) (layer Edge.Cuts) (width 0.05) (tstamp 5CE326C6))
+  (gr_line (start 81.026 110.998) (end 120.904 110.998) (layer Edge.Cuts) (width 0.05) (tstamp 5CE326C5))
+  (gr_line (start 80.264 84.074) (end 80.264 110.236) (layer Edge.Cuts) (width 0.05) (tstamp 5CE326C4))
+  (gr_line (start 120.904 83.312) (end 81.026 83.312) (layer Edge.Cuts) (width 0.05) (tstamp 5CE326C3))
+  (gr_arc (start 120.904 84.074) (end 121.666 84.074) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 120.904 110.236) (end 120.904 110.998) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 81.026 110.236) (end 80.264 110.236) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 81.026 84.074) (end 81.026 83.312) (angle -90) (layer Edge.Cuts) (width 0.05))
 
 )
