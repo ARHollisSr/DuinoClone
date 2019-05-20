@@ -183,7 +183,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CE308A7)
-    (at 78.867 90.551)
+    (at 82.423 90.551)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /5CE2F41C)
@@ -223,7 +223,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5CE31B5B)
-    (at 99.568 94.869)
+    (at 98.425 93.599)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5CE30EAD)
@@ -259,7 +259,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5CE31B8B)
-    (at 99.577 90.17)
+    (at 98.425 90.297)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5CE31ACC)
@@ -295,7 +295,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5CE308DA)
-    (at 115.706 98.933 180)
+    (at 113.352 99.183 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (path /5CE322B6)
@@ -331,7 +331,7 @@
   )
 
   (module LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B4B45C9) (tstamp 5CE308ED)
-    (at 120.015 104.267)
+    (at 117.729 102.489)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (path /5CE330B4)
@@ -369,7 +369,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CE3090A)
-    (at 90.932 111.252 90)
+    (at 91.694 108.839 90)
     (descr "Through hole straight pin header, 1x09, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x09 2.54mm single row")
     (path /5CE3C2E7/5CE3D253)
@@ -423,7 +423,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CE30922)
-    (at 92.202 84.582 90)
+    (at 94.869 85.598 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /5CE3C2E7/5CE40335)
@@ -467,7 +467,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CE3093E)
-    (at 78.359 100.965)
+    (at 82.423 98.552)
     (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x03 2.54mm double row")
     (path /5CE3C2E7/5CE3EBBD)
@@ -517,7 +517,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 5CE30956)
-    (at 107.061 84.455 90)
+    (at 108.839 85.598 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /5CE3C2E7/5CE3DCFD)
@@ -561,7 +561,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5CE30967)
-    (at 115.815 104.267 180)
+    (at 113.352 102.534 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5CE33F79)
@@ -597,18 +597,18 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder (layer F.Cu) (tedit 5B36C52B) (tstamp 5CE30978)
-    (at 83.312 91.948 90)
+    (at 88.773 86.868 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (path /5CE34AF5)
     (attr smd)
-    (fp_text reference R2 (at 0 -1.65 90) (layer F.SilkS)
+    (fp_text reference R2 (at 0 -1.65) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 10kohm (at 0 1.65 90) (layer F.Fab)
+    (fp_text value 10kohm (at 0 1.65) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text user %R (at 0 0 90) (layer F.Fab)
+    (fp_text user %R (at 0 0) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.08)))
     )
     (fp_line (start 1.85 0.95) (end -1.85 0.95) (layer F.CrtYd) (width 0.05))
@@ -621,9 +621,9 @@
     (fp_line (start 1 -0.6) (end 1 0.6) (layer F.Fab) (width 0.1))
     (fp_line (start -1 -0.6) (end 1 -0.6) (layer F.Fab) (width 0.1))
     (fp_line (start -1 0.6) (end -1 -0.6) (layer F.Fab) (width 0.1))
-    (pad 2 smd roundrect (at 1.025 0 90) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
+    (pad 2 smd roundrect (at 1.025 0 180) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
       (net 1 /Vcc))
-    (pad 1 smd roundrect (at -1.025 0 90) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
+    (pad 1 smd roundrect (at -1.025 0 180) (size 1.15 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.217391)
       (net 18 /RESET))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
@@ -633,7 +633,7 @@
   )
 
   (module Package_SO:SO-8_5.3x6.2mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5CE30995)
-    (at 118.491 91.44)
+    (at 116.332 92.202)
     (descr "8-Lead Plastic Small Outline, 5.3x6.2mm Body (http://www.ti.com.cn/cn/lit/ds/symlink/tl7705a.pdf)")
     (tags "SOIC 1.27")
     (path /5CE464AF)
@@ -687,7 +687,7 @@
   )
 
   (module Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5CE309B2)
-    (at 107.569 91.059)
+    (at 105.537 94.107)
     (descr "8-Lead Plastic Small Outline (SM) - Medium, 5.28 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5CE35387)
@@ -741,7 +741,7 @@
   )
 
   (module Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm (layer F.Cu) (tedit 5A02F2D3) (tstamp 5CE309CF)
-    (at 107.95 100.965)
+    (at 105.537 101.219)
     (descr "8-Lead Plastic Small Outline (SM) - Medium, 5.28 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5CE55027)
@@ -795,7 +795,7 @@
   )
 
   (module digikey-footprints:TQFP-32_7x7mm (layer F.Cu) (tedit 59C2C6A7) (tstamp 5CE30A07)
-    (at 91.567 101.981)
+    (at 93.472 100.076)
     (descr http://www.atmel.com/Images/Atmel-8826-SEEPROM-PCB-Mounting-Guidelines-Surface-Mount-Packages-ApplicationNote.pdf)
     (path /5CE4135D)
     (fp_text reference U4 (at 0 -6.25) (layer F.SilkS)
@@ -893,7 +893,7 @@
   )
 
   (module Crystal:Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm_HandSoldering (layer F.Cu) (tedit 5A0FD1B2) (tstamp 5CE30A1A)
-    (at 121.031 99.187)
+    (at 118.491 98.933)
     (descr "SMD Crystal MicroCrystal CC7V-T1A/CM7V-T1A series http://www.microcrystal.com/images/_Product-Documentation/01_TF_ceramic_Packages/01_Datasheet/CC1V-T1A.pdf, hand-soldering, 3.2x1.5mm^2 package")
     (tags "SMD SMT crystal hand-soldering")
     (path /5CE47483)
@@ -931,7 +931,7 @@
   )
 
   (module Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering (layer F.Cu) (tedit 5A0FD1B2) (tstamp 5CE30A35)
-    (at 91.44 91.186)
+    (at 91.523 91.247)
     (descr "SMD Crystal SERIES SMD2520/2 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, hand-soldering, 5.0x3.2mm^2 package")
     (tags "SMD SMT crystal hand-soldering")
     (path /5CE4858A)
